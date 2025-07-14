@@ -1,4 +1,5 @@
  import Header from "./components/Header";
+ import Footer from "./components/Footer";
  function App(){
   return (
     <>
@@ -11,7 +12,7 @@
             <li>Is maintained by Meta</li>
             <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
-        {console.log(<h1>Hello world!</h1>)}
+      <Footer />
     </>
   )
  }
