@@ -1,7 +1,8 @@
+ import Header from "./components/Header";
  function App(){
   return (
     <>
-      <img src="./src/react.png" alt="" width="40px"/>
+     <Header />
       <h1>Fun facts about React!</h1>
         <ul>
             <li>Was first release in 2013</li>
@@ -16,3 +17,4 @@
  }
 
  export default App;
+ 
