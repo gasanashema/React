@@ -7,7 +7,7 @@ import Main from "./components/Main";
     <>
       <Header />
       <Main />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
  }
