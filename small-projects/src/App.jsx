@@ -1,10 +1,13 @@
-import FunctionClick from "./components/FunctionClick"
+// import FunctionClick from "./components/FunctionClick"
+import Garage from "./components/ConditionalRendering"
 function App() {
  
 
   return (
     <>
-      <FunctionClick />
+      {/* <FunctionClick /> */}
+      <Garage cars={["Ford", "Honda", "Tesla"]} />
+
     </>
   )
 }

@@ -1,9 +1,9 @@
 export default function FunctionClick(){
     const clickHandler = (a)=>{
-        alert('hello '+a)
+        alert(a.type)
     }
 
     return (
-        <button onClick={()=>clickHandler('Mr')}>Click</button>
+        <button onMouseMove={clickHandler}>Click</button>
     )
 }
