@@ -4,6 +4,6 @@ export default function FunctionClick(){
     }
 
     return (
-        <button onMouseMove={clickHandler}>Click</button>
+        <button onMouseLeave={clickHandler}>Click</button>
     )
 }
