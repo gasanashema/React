@@ -3,8 +3,9 @@ import Garage from "./components/ConditionalRendering"
 import DynamicButton from "./components/DynamicButton"
 import CounterButton from "./components/CounterButton"
 import { useState } from "react"
+import FormHandling from "./components/FormHandling"
 function App() {
- const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
+//  const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
 //  const handleClick = (id)=>{
         
 //   alert(`Clicked Button ${id}`);
@@ -22,6 +23,8 @@ function App() {
 
      
       <CounterButton color={'brown'}/>
+
+      {/* <FormHandling /> */}
     </>
   )
 }
