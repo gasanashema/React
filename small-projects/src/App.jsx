@@ -5,6 +5,7 @@ import CounterButton from "./components/CounterButton"
 import { useState } from "react"
 import FormHandling from "./components/FormHandling"
 import Car from "./components/Car"
+import Timer from "./components/Timer"
 function App() {
 //  const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
 //  const handleClick = (id)=>{
@@ -26,7 +27,8 @@ function App() {
       {/* <CounterButton color={'brown'}/> */}
 
       {/* <FormHandling /> */}
-      <Car />
+      {/* <Car /> */}
+        <Timer />
     </>
   )
 }
