@@ -4,6 +4,7 @@ import DynamicButton from "./components/DynamicButton"
 import CounterButton from "./components/CounterButton"
 import { useState } from "react"
 import FormHandling from "./components/FormHandling"
+import Car from "./components/Car"
 function App() {
 //  const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
 //  const handleClick = (id)=>{
@@ -22,9 +23,10 @@ function App() {
       </div> */}
 
      
-      <CounterButton color={'brown'}/>
+      {/* <CounterButton color={'brown'}/> */}
 
       {/* <FormHandling /> */}
+      <Car />
     </>
   )
 }
