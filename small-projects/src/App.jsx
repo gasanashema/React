@@ -6,12 +6,13 @@ import { useState } from "react"
 import FormHandling from "./components/FormHandling"
 import Car from "./components/Car"
 import Timer from "./components/Timer"
+import CounterTitle from "./components/CounterTitle"
 function App() {
-//  const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
-//  const handleClick = (id)=>{
-        
-//   alert(`Clicked Button ${id}`);
-// }
+  //  const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
+  //  const handleClick = (id)=>{
+
+  //   alert(`Clicked Button ${id}`);
+  // }
 
   return (
     <>
@@ -23,12 +24,13 @@ function App() {
       }
       </div> */}
 
-     
+
       {/* <CounterButton color={'brown'}/> */}
 
       {/* <FormHandling /> */}
       {/* <Car /> */}
-        <Timer />
+      {/* <Timer /> */}
+        <CounterTitle />
     </>
   )
 }
