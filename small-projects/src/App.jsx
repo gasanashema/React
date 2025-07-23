@@ -29,8 +29,8 @@ function App() {
 
       {/* <FormHandling /> */}
       {/* <Car /> */}
-      {/* <Timer /> */}
-        <CounterTitle />
+      <Timer />
+        {/* <CounterTitle /> */}
     </>
   )
 }
