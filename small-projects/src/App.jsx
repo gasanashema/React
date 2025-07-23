@@ -8,6 +8,7 @@ import Car from "./components/Car"
 import Timer from "./components/Timer"
 import CounterTitle from "./components/CounterTitle"
 import UseRefCount from "./components/UseRefCount"
+import UseRefDOM from "./components/UseRefDOM"
 function App() {
   //  const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
   //  const handleClick = (id)=>{
@@ -32,7 +33,8 @@ function App() {
       {/* <Car /> */}
       {/* <Timer /> */}
         {/* <CounterTitle /> */}
-        <UseRefCount />
+        {/* <UseRefCount /> */}
+        <UseRefDOM />
     </>
   )
 }
