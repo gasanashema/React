@@ -9,6 +9,8 @@ import Timer from "./components/Timer"
 import CounterTitle from "./components/CounterTitle"
 import UseRefCount from "./components/UseRefCount"
 import UseRefDOM from "./components/UseRefDOM"
+import ContextData from "./components/ContextData"
+
 function App() {
   //  const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
   //  const handleClick = (id)=>{
@@ -34,7 +36,11 @@ function App() {
       {/* <Timer /> */}
         {/* <CounterTitle /> */}
         {/* <UseRefCount /> */}
-        <UseRefDOM />
+        {/* <UseRefDOM /> */}
+        <ContextProvider>
+
+        <ContextData />
+        </ContextProvider>
     </>
   )
 }
