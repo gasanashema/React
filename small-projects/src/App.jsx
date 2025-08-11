@@ -36,11 +36,11 @@ function App() {
       {/* <Timer /> */}
         {/* <CounterTitle /> */}
         {/* <UseRefCount /> */}
-        {/* <UseRefDOM /> */}
-        <ContextProvider>
+        <UseRefDOM />
+        {/* <ContextProvider>
 
         <ContextData />
-        </ContextProvider>
+        </ContextProvider> */}
     </>
   )
 }
