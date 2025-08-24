@@ -10,6 +10,7 @@ import CounterTitle from "./components/CounterTitle"
 import UseRefCount from "./components/UseRefCount"
 import UseRefDOM from "./components/UseRefDOM"
 import ContextData from "./components/ContextData"
+import UseReducerCounter from "./components/UseReducerCounter"
 
 function App() {
   //  const [arr,setArr] = useState({'1':'red','2':'yellow','3':'Green'})
@@ -36,7 +37,8 @@ function App() {
       {/* <Timer /> */}
         {/* <CounterTitle /> */}
         {/* <UseRefCount /> */}
-        <UseRefDOM />
+        {/* <UseRefDOM /> */}
+        <UseReducerCounter />
         {/* <ContextProvider>
 
         <ContextData />
